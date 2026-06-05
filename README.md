@@ -24,11 +24,13 @@ geometric invariants which are mathematical descriptors unchanged under any comb
   no server required
 
 ## Repository Structure
-├── main.py              # Single reproducible pipeline script
-├── index.html           # Standalone interactive visualisation (hosted above)
-├── dissertation.pdf     # Full technical write-up
-├── molecules/           # SDF files for all downloaded conformers
-└── conformers.db        # SQLite database of computed invariants
+```text
+├── main.py             # Single reproducible pipeline script
+├── index.html          # Standalone interactive visualisation (hosted above)
+├── dissertation.pdf    # Full technical write-up
+├── molecules/          # SDF files for all downloaded conformers
+└── conformers.db       # SQLite database of computed invariants
+```
 
 ## Technical Stack
 
